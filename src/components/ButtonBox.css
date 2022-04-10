@@ -1,0 +1,11 @@
+.buttonBox {
+    width: 100%;
+    height: calc(100% - 110px);
+    display: grid;
+    grid-template-columns: repeat(4, 0.8fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 16px;
+    background-color: #BECCFE;
+    border-radius: 8px;
+    padding: 2px;
+}

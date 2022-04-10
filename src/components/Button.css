@@ -1,0 +1,27 @@
+button {
+    border: 1px outset #fff;
+    background-color: #051961;
+    font-size: 24px;
+    color: #fff;
+    font-weight: medium;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+}
+
+button:hover {
+    border: 2px solid #fff;
+}
+
+button:active {
+    border: 3px inset #fff;
+}
+
+.equals {
+    grid-column: 3 / 5;
+    background-color: #4B04A6;
+}
+
+.equals:hover {
+    border: 2px solid #fff;
+}
