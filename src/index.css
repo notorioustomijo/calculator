@@ -19,16 +19,16 @@ body {
 @media (max-width: 480px) {
 
   .wrapper {
-    width: 180px;
-    height: 300px;
-    padding: 16px;
+    width: 75%;
+    height: 80vh;
+    padding: 8px;
     border-radius: 10px;
     background-color: #fff;
   }
 
   .screen {
     height: 48px;
-    width: 100%;
+    width: 75%;
     margin-bottom: 8px;
     padding: 0 8px;
     background-color: #05123D;
@@ -41,7 +41,7 @@ body {
     box-sizing: border-box;
   }
 
-  .buttonBox {
+  /* .buttonBox {
     width: 100%;
     height: calc(100% - 200px);
     display: grid;
@@ -79,7 +79,7 @@ body {
 
   .equals:hover {
     border: 2px solid #fff;
-  }
+  } */
 
 
 
