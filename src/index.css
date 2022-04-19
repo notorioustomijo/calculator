@@ -19,15 +19,15 @@ body {
 @media (max-width: 480px) {
 
   .wrapper {
-    width: 75%;
-    height: 80vh;
+    max-width: 300px;
+    max-height: 500px;
     padding: 8px;
     border-radius: 10px;
     background-color: #fff;
   }
 
   .screen {
-    height: 48px;
+    height: 32px;
     width: 75%;
     margin-bottom: 8px;
     padding: 0 8px;
@@ -41,7 +41,7 @@ body {
     box-sizing: border-box;
   }
 
-  /* .buttonBox {
+  .buttonBox {
     width: 100%;
     height: calc(100% - 200px);
     display: grid;
@@ -79,7 +79,78 @@ body {
 
   .equals:hover {
     border: 2px solid #fff;
-  } */
+  }
+
+
+
+
+
+}
+
+@media (min-width: 481px) and (max-width: 761px) {
+
+  .wrapper {
+    max-width: 600px;
+    max-height: 1000px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  .screen {
+    height: 56px;
+    width: 75%;
+    margin-bottom: 8px;
+    padding: 0 8px;
+    background-color: #05123D;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+
+  .buttonBox {
+    width: 100%;
+    height: calc(100% - 200px);
+    display: grid;
+    grid-template-columns: repeat(4, 0.8fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 8px;
+    background-color: #BECCFE;
+    border-radius: 4px;
+    padding: 2px;
+  }
+
+  button {
+    border: 1px outset #fff;
+    background-color: #051961;
+    font-size: 16px;
+    color: #fff;
+    font-weight: medium;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  button:hover {
+    border: 2px solid #fff;
+  }
+
+  button:active {
+    border: 3px inset #fff;
+  }
+
+  .equals {
+    grid-column: 3 / 5;
+    background-color: #4B04A6;
+  }
+
+  .equals:hover {
+    border: 2px solid #fff;
+  }
 
 
 
